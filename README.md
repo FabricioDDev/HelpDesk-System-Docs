@@ -3,12 +3,12 @@
 - [Elevator Pitch](#elevator-pitch)
 - [Guía de Uso del Repositorio](#guía-de-uso-del-repositorio)
   - [Ramas del Repositorio](#ramas-del-repositorio)
-    - [Rama main](#rama-main)
-    - [Rama experimental](#rama-experimental)
-    - [Rama hotfix](#rama-hotfix)
-    - [Rama release](#rama-release)
-    - [Rama bugfix](#rama-bugfix)
-    - [Rama feature](#rama-feature)
+    - [Rama main](#1-main)
+    - [Rama experimental](#2-experimental)
+    - [Rama hotfix](#3-hotfix)
+    - [Rama release](#4-release)
+    - [Rama bugfix](#5-bugfix)
+    - [Rama feature](#6-feature)
 
 # Elevator Pitch.
 ## Name: HelpDesk System.
@@ -19,11 +19,12 @@
 El Sistema de Soporte HelpDesk es una solución diseñada para empresas medianas y grandes que buscan formas eficientes y rápidas de abordar consultas relacionadas con productos o servicios. Mediante la gestión fluida de usuarios —clientes, asistentes y administradores— el sistema agiliza el proceso de soporte. Con un enfoque en la simplicidad y la facilidad de uso, nuestra HelpDesk System garantiza asistencia rápida y sin complicaciones, mejorando la experiencia global del usuario.
 
 
+
 # Guía de Uso del Repositorio.
 
 En este repositorio, utilizamos el idioma ingles, y diferentes ramas para organizar y gestionar el desarrollo de nuestro proyecto. Cada rama tiene un propósito específico y su uso adecuado ayudará a mantener un flujo de trabajo ordenado y colaborativo. A continuación, se detalla el propósito y el uso recomendado para cada una de las ramas disponibles:
 
-## sus ramas.
+## Ramas del Repositorio.
 
 ## 1. **main:**
 La rama `main` es la rama principal y estable del repositorio. Debería contener únicamente el código que ha sido probado, revisado y considerado listo para ser desplegado en producción. Los commits en esta rama deben estar relacionados con versiones estables del software.
