@@ -2,7 +2,7 @@
 
 - [Elevator Pitch](#elevator-pitch)
 - [Tecnologias y herramientas](#Tecnologias-y-herramientas-usadas)
-- []()
+- [Convenciones](#Convenciones)
 - [Guía de Uso del Repositorio](#guía-de-uso-del-repositorio)
   - [Ramas del Repositorio](#ramas-del-repositorio)
     - [Rama main](#1-main)
@@ -22,20 +22,16 @@ El Sistema de Soporte HelpDesk es una solución diseñada para empresas medianas
 
 # Tecnologias y herramientas usadas.
 
- Colaborativas:
- Discord
- Slack
- Jira software
- Git
- Github
- Trello
+ ## Colaborativas: Discord, Slack, Jira software, Git, Github, Trello
+ ## Diseño: Figma/photoshop
+ ## BD, BACK, FRONT?
 
- Diseño: 
- Figma/photoshop
-
- BD?
- BACK?
- FRONT?
+# Convenciones.
+## Formato de versionamiento: se.mv.er 1.0.0
+## api: en URL
+## En bd?
+## En front?
+## Idioma: ingles.
 
 # Guía de Uso del Repositorio.
 
