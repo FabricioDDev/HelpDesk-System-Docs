@@ -24,7 +24,9 @@ El Sistema de Soporte HelpDesk es una solución diseñada para empresas medianas
 
  ## Colaborativas: Discord, Slack, Jira software, Git, Github, Trello
  ## Diseño: Figma/photoshop
- ## BD, BACK, FRONT?
+ ## Back: NodeJs, Express.
+ ## DB: MySql.
+ ## Front??
 
 # Convenciones.
 ## Formato de versionamiento: se.mv.er 1.0.0
