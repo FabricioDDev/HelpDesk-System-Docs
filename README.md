@@ -1,6 +1,8 @@
 # Readme Guide
 
 - [Elevator Pitch](#elevator-pitch)
+- [Tecnologias y herramientas](#Tecnologias-y-herramientas-usadas)
+- []()
 - [Guía de Uso del Repositorio](#guía-de-uso-del-repositorio)
   - [Ramas del Repositorio](#ramas-del-repositorio)
     - [Rama main](#1-main)
@@ -18,7 +20,22 @@
 
 El Sistema de Soporte HelpDesk es una solución diseñada para empresas medianas y grandes que buscan formas eficientes y rápidas de abordar consultas relacionadas con productos o servicios. Mediante la gestión fluida de usuarios —clientes, asistentes y administradores— el sistema agiliza el proceso de soporte. Con un enfoque en la simplicidad y la facilidad de uso, nuestra HelpDesk System garantiza asistencia rápida y sin complicaciones, mejorando la experiencia global del usuario.
 
+# Tecnologias y herramientas usadas.
 
+## Colaborativas:
+## Discord
+## Slack
+## Jira software
+## Git
+## Github
+## Trello
+
+## Diseño: 
+## Figma/photoshop
+
+## BD?
+## BACK?
+## FRONT?
 
 # Guía de Uso del Repositorio.
 
