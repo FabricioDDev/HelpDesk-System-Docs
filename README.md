@@ -35,9 +35,12 @@ El Sistema de Soporte HelpDesk es una solución diseñada para empresas medianas
 ## En front?
 ## Idioma: ingles.
 
-# Guía de Uso del Repositorio.
+# Guía de Uso de los Repositorios.
+# Actual: Muestra la documentacion del proyecto.
+# https://github.com/FabricioDDev/HelpDesk-System-BackEnd : Area BackEnd.
+# https://github.com/FabricioDDev/HelpDesk-System-Front : Area FrontEnd.
 
-En este repositorio, utilizamos el idioma ingles, y diferentes ramas para organizar y gestionar el desarrollo de nuestro proyecto. Cada rama tiene un propósito específico y su uso adecuado ayudará a mantener un flujo de trabajo ordenado y colaborativo. A continuación, se detalla el propósito y el uso recomendado para cada una de las ramas disponibles:
+En los repositorios Front y Back tendremos diferentes ramas para organizar y gestionar el desarrollo de nuestro proyecto. Cada rama tiene un propósito específico y su uso adecuado ayudará a mantener un flujo de trabajo ordenado y colaborativo. A continuación, se detalla el propósito y el uso recomendado para cada una de las ramas disponibles:
 
 ## Ramas del Repositorio.
 
