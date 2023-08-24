@@ -3,6 +3,7 @@
 - [Elevator Pitch](#elevator-pitch)
 - [Tecnologias y herramientas](#Tecnologias-y-herramientas-usadas)
 - [Convenciones](#Convenciones)
+- [Que es el versionamiento semver?](#Que-es-el-versionamiento-semver?)
 - [Guía de Uso del Repositorio](#guía-de-uso-del-repositorio)
   - [Ramas del Repositorio](#ramas-del-repositorio)
     - [Rama main](#1-main)
@@ -29,11 +30,19 @@ El Sistema de Soporte HelpDesk es una solución diseñada para empresas medianas
  ## Front??
 
 # Convenciones.
-## Formato de versionamiento: se.mv.er 1.0.0
+## Formato de versionamiento: semver 1.0.0
 ## api: en URL
 ## En bd?
 ## En front?
 ## Idioma: ingles.
+
+# Que es el versionamiento semver?
+## el mecanismo de control de versiones más popular, centrado en la compatibilidad y los cambios entre cada versión.
+## Como usarlo?
+## Se usa el siguiente formato:(major) .(minor) .(patch) siendo estos:
+## major: se refiere a la versión principal. Esta suele romper la compatibilidad con las versiones anteriores. Además, normalmente se aumenta esta versión para eliminar la API obsoleta o bien rehacer existentes.
+## minor: la opción semver minor hace referencia a la versión incrementada con el objetivo de añadir nuevas funcionalidades, sin que esto rompa la compatibilidad de alguna forma.
+## patch: se le conoce también como bugfix y se utiliza para actividades como la corrección de vulnerabilidades de seguridad, así como para la resolución de errores menores.
 
 # Guía de Uso de los Repositorios.
 # Actual: Muestra la documentacion del proyecto.
