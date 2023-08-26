@@ -83,4 +83,9 @@ La rama `feature` se utiliza para desarrollar nuevas características o mejoras 
 
 **Uso recomendado:** Los desarrolladores pueden crear ramas a partir de `experimental` para trabajar en nuevas características. Una vez completada la implementación y pasadas las pruebas, se hace un pull request hacia `experimental`.
 
+# Flujo de trabajo en ramas:
+![WhatsApp Image 2023-08-26 at 08 20 46](https://github.com/FabricioDDev/HelpDesk-System-Docs/assets/111092778/af8cd00c-62ab-499a-b511-28216e655b29)
+
+
+
 Recuerda que antes de hacer cualquier cambio en las ramas principales, es importante crear ramas separadas, trabajar en ellas, y luego fusionar los cambios a través de pull requests. Esto permite una revisión adecuada y garantiza que el código que llega a las ramas principales sea de alta calidad y esté probado.
