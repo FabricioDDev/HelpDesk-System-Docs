@@ -35,6 +35,7 @@ El Sistema de Soporte HelpDesk es una solución diseñada para empresas medianas
 ## En bd?
 ## En front?
 ## Idioma: ingles.
+## Nomenclatura: CamelCase.
 
 # Que es el versionamiento semver?
 ## el mecanismo de control de versiones más popular, centrado en la compatibilidad y los cambios entre cada versión.
