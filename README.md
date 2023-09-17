@@ -1,92 +1,105 @@
 # Readme Guide
 
 - [Elevator Pitch](#elevator-pitch)
-- [Tecnologias y herramientas](#Tecnologias-y-herramientas-usadas)
-- [Convenciones](#Convenciones)
-- [Que es el versionamiento semver?](#Que-es-el-versionamiento-semver?)
-- [Guía de Uso del Repositorio](#guía-de-uso-del-repositorio)
-  - [Ramas del Repositorio](#ramas-del-repositorio)
-    - [Rama main](#1-main)
-    - [Rama experimental](#2-experimental)
-    - [Rama hotfix](#3-hotfix)
-    - [Rama release](#4-release)
-    - [Rama bugfix](#5-bugfix)
-    - [Rama feature](#6-feature)
+- [Tech & tools](#Tech-&-tools)
+- [Conventions](#Conventions)
+- [What is semver versioning?](#What-is-semver-versioning?)
+- [Repository use guide](#Repository-use-guide)
+  - [Branches of the Repository](#Branches-of-the-Repository)
+- [Collaborators](#Collaborators)
 
 # Elevator Pitch.
-## Name: HelpDesk System.
-## For: Medium Companies.
-## Objetivo: Brindar Soluciones Eficientes para Problemas de Productos/Servicios.
-## Características: Gestión de Usuarios, Proceso de Soporte Optimizado, Experiencia de Usuario Intuitiva.
+## Project name: HelpDesk System.
+## Objetive group: small & Medium Companies.
+## Objetive: provide efficents solutions for problems with a product or service.
+## Characteristics: User managment, dinamic support process, easy user experience.
 
-El Sistema de Soporte HelpDesk es una solución diseñada para empresas medianas y grandes que buscan formas eficientes y rápidas de abordar consultas relacionadas con productos o servicios. Mediante la gestión fluida de usuarios —clientes, asistentes y administradores— el sistema agiliza el proceso de soporte. Con un enfoque en la simplicidad y la facilidad de uso, nuestra HelpDesk System garantiza asistencia rápida y sin complicaciones, mejorando la experiencia global del usuario.
+The HelpDesk Support System is a solution designed for medium and large companies that are looking for efficient and fast ways to address queries related to products or services. By seamlessly managing users—customers, attendees, and administrators—the system streamlines the support process. With a focus on simplicity and ease of use, our HelpDesk System ensures quick and hassle-free assistance, improving the overall user experience.
 
-# Tecnologias y herramientas usadas.
+# Tech & tools.
+ Collaboratives: Discord, Slack, Jira software, Git, Github, Trello
+ 
+ Design: Figma/photoshop
+ 
+ Back: NodeJs, Express, MySql.
+ 
+ Front: html, css, React.
 
- ## Colaborativas: Discord, Slack, Jira software, Git, Github, Trello
- ## Diseño: Figma/photoshop
- ## Back: NodeJs, Express.
- ## DB: MySql.
- ## Front??
+# conventions.
+versions format: semver 1.0.0
 
-# Convenciones.
-## Formato de versionamiento: semver 1.0.0
-## api: en URL
-## En bd?
-## En front?
-## Idioma: ingles.
-## Nomenclatura: CamelCase.
+api: Url.
 
-# Que es el versionamiento semver?
-## el mecanismo de control de versiones más popular, centrado en la compatibilidad y los cambios entre cada versión.
-## Como usarlo?
-## Se usa el siguiente formato:(major) .(minor) .(patch) siendo estos:
-## major: se refiere a la versión principal. Esta suele romper la compatibilidad con las versiones anteriores. Además, normalmente se aumenta esta versión para eliminar la API obsoleta o bien rehacer existentes.
-## minor: la opción semver minor hace referencia a la versión incrementada con el objetivo de añadir nuevas funcionalidades, sin que esto rompa la compatibilidad de alguna forma.
-## patch: se le conoce también como bugfix y se utiliza para actividades como la corrección de vulnerabilidades de seguridad, así como para la resolución de errores menores.
+Language: English.
 
-# Guía de Uso de los Repositorios.
-# Actual: Muestra la documentacion del proyecto.
-# https://github.com/FabricioDDev/HelpDesk-System-BackEnd : Area BackEnd.
-# https://github.com/FabricioDDev/HelpDesk-System-Front : Area FrontEnd.
+Nomenclature: CamelCase.
 
-En los repositorios Front y Back tendremos diferentes ramas para organizar y gestionar el desarrollo de nuestro proyecto. Cada rama tiene un propósito específico y su uso adecuado ayudará a mantener un flujo de trabajo ordenado y colaborativo. A continuación, se detalla el propósito y el uso recomendado para cada una de las ramas disponibles:
+# What is semver versioning?
+the most popular version control mechanism, focused on compatibility and changes between each version.
 
-## Ramas del Repositorio.
+How to use it?
+The following format is used: (major) .(minor) .(patch) being these:
+
+major: refers to the major version. This usually breaks compatibility with previous versions. Additionally, this version is usually upgraded to remove existing deprecated or redo APIs.
+
+minor: the semver minor option refers to the increased version with the aim of adding new functionalities, without this breaking compatibility in any way.
+
+patch: It is also known as a bugfix and is used for activities such as correcting security vulnerabilities, as well as for resolving minor errors.
+
+# Repository use guide.
+Actual: Show the general documentation project.
+
+https://github.com/FabricioDDev/HelpDesk-System-BackEnd : Area BackEnd.
+
+https://github.com/FabricioDDev/HelpDesk-System-Front : Area FrontEnd.
+
+In the Front and Back repositories we will have different branches to organize and manage the development of our project. Each branch has a specific purpose and its proper use will help maintain an orderly and collaborative workflow. Below is the purpose and recommended use for each of the available branches:
+
+# Branches of the Repository.
 
 ## 1. **main:**
-La rama `main` es la rama principal y estable del repositorio. Debería contener únicamente el código que ha sido probado, revisado y considerado listo para ser desplegado en producción. Los commits en esta rama deben estar relacionados con versiones estables del software.
+The `main` branch is the main, stable branch of the repository. It should only contain code that has been tested, reviewed, and deemed ready to be deployed to production. Commits in this branch must be related to stable versions of the software.
 
-**Uso recomendado:** No se debe hacer commit directamente en esta rama. Los cambios se integran a través de pull requests provenientes de otras ramas.
+**Recommended use:** You should not commit directly to this branch. Changes are integrated through pull requests from 'release' branch.
 
 ## 2. **experimental:**
-La rama `experimental` es el espacio para experimentar y probar nuevas funcionalidades o cambios importantes que aún no están listos para ser incluidos en la rama principal. Puede contener código en desarrollo y no necesariamente estable.
+The `experimental` branch is the space to experiment and test new features or important changes that are not yet ready to be included in the main branch. It may contain code in development and not necessarily stable.
 
-**Uso recomendado:** Los desarrolladores pueden crear ramas a partir de `experimental` para trabajar en nuevas características. Al finalizar, se debe crear un pull request hacia `experimental` para su revisión.
+**Recommended usage:** Developers can create branches from `experimental` to work on new features. Upon completion, a pull request should be created towards `release'.
 
 ## 3. **hotfix:**
-La rama `hotfix` se utiliza para solucionar problemas críticos en producción que requieren una corrección urgente. Estos arreglos deben aplicarse a la versión actual en producción y luego fusionarse en la rama `main`.
+The `hotfix` branch is used to fix critical issues in production that require an urgent fix. These fixes should be applied to the current version in production and then merged into the `main` branch.
 
-**Uso recomendado:** Se deben crear ramas a partir de `main` para realizar correcciones de errores críticos. Una vez corregido, se hace un pull request hacia `main` y, una vez aprobado, se debe fusionar tanto en `main` como en `experimental`.
+**Recommended usage:** Branches should be created from `main` to make critical bug fixes. Once fixed, a pull request is made to `main` and, once approved, it should be merged into both `main`.
 
 ## 4. **release:**
-La rama `release` se utiliza para preparar una versión estable para su lanzamiento. Aquí se pueden hacer ajustes finales, pruebas exhaustivas y documentación antes de desplegar en producción. Una vez lista, se fusiona en `main` y se etiqueta con la versión correspondiente.
+The `release` branch is used to prepare a stable version for release. Here you can make final adjustments, extensive testing and documentation before deploying to production. Once ready, it is merged into `main` and tagged with the corresponding version.
 
-**Uso recomendado:** Se crea a partir de `main` y se realizan ajustes finales y pruebas. Luego, se hace un pull request hacia `main` y, una vez aprobado, se fusiona en `main` y `experimental`.
+**Recommended use:** Created from `main` and performed final adjustments and testing. A pull request is then made to `main` and, once approved, it is merged into `main`.
 
 ## 5. **bugfix:**
-La rama `bugfix` se utiliza para abordar errores que no son críticos pero que necesitan ser corregidos en futuras versiones. Estos cambios se hacen en paralelo a otras características en desarrollo.
+The `bugfix` branch is used to address bugs that are not critical but need to be fixed in future releases. These changes are made in parallel to other features in development.
 
-**Uso recomendado:** Los desarrolladores pueden crear ramas a partir de `experimental` para solucionar errores no críticos. Una vez resuelto, se hace un pull request hacia `experimental`.
+**Recommended usage:** Developers can create branches from `experimental` to fix non-critical bugs. Once resolved, a pull request is made towards `experimental`.
 
 ## 6. **feature:**
-La rama `feature` se utiliza para desarrollar nuevas características o mejoras en el proyecto. Aquí es donde se trabaja en la implementación de nuevas funcionalidades.
+The `feature` branch is used to develop new features or improvements in the project. This is the first step where we work on the implementation of new functionalities.
 
-**Uso recomendado:** Los desarrolladores pueden crear ramas a partir de `experimental` para trabajar en nuevas características. Una vez completada la implementación y pasadas las pruebas, se hace un pull request hacia `experimental`.
+**Recommended usage:** Once the implementation is complete, a pull request is made towards `experimental`.
 
-# Flujo de trabajo en ramas:
+# Branches workflow:
 ![WhatsApp Image 2023-08-26 at 08 20 46](https://github.com/FabricioDDev/HelpDesk-System-Docs/assets/111092778/af8cd00c-62ab-499a-b511-28216e655b29)
 
+Remember that before making any changes to the main branches, it is important to create separate branches, work on them, and then merge the changes through pull requests. This allows for proper review and ensures that the code that reaches the main branches is high quality and tested.
 
+## Collaborators
+## Project Managers:
+We'd like to thank [FabricioDDev](https://github.com/FabricioDDev) for create and be the project manager.
+## Design: 
+We'd like to thank []() for their contribution to implementing Feature X.
+## Back:
+We'd like to thank [facunoya](https://github.com/facunoya) for their contribution in the first sprint, creating and conecting the project with the database.
 
-Recuerda que antes de hacer cualquier cambio en las ramas principales, es importante crear ramas separadas, trabajar en ellas, y luego fusionar los cambios a través de pull requests. Esto permite una revisión adecuada y garantiza que el código que llega a las ramas principales sea de alta calidad y esté probado.
+We'd like to thank [ferwinred](/ferwinred) for their contribution in creating the controllers during the first sprint.
+
+We'd like to thank [keav030](https://github.com/keav030) for their contribution in creating a organization folder.
