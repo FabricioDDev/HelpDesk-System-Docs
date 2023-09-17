@@ -95,8 +95,6 @@ Remember that before making any changes to the main branches, it is important to
 ## Collaborators
 ## Project Managers:
 We'd like to thank [FabricioDDev](https://github.com/FabricioDDev) for create and be the project manager.
-## Design: 
-We'd like to thank []() for their contribution to implementing Feature X.
 ## Back:
 We'd like to thank [facunoya](https://github.com/facunoya) for their contribution in the first sprint, creating and conecting the project with the database.
 
